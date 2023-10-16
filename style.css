@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+    background-color:#3aafa9;
+}
+.body{
+    background-color: #3aafa9;
+}
+.log-in a:hover{
+    background-color: #fff;
+    color: #3f83f0;
+}
+.log-in a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10 5px;
+    border-radius: 20px;
+    transition: 0.5 ease;
+    border: 1px solid transparent;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+ul li{
+    display: inline-block;
+    border-radius: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    position: relative;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+.title h1{
+    color: #000000;
+    font-size: 40px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    border: 1px solid#3ff04b;
+    padding: 5px 20px;
+    color: #3ff04b;
+    transition: 0.5 ease;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.form *{
+    margin: 0;
+    font-family: sans-serif;
+    padding-bottom: 0x;
+    
+}
+
+.registration-form{
+    position:fixed;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    padding-top: 600px;
+}
+
+.registration-form h1{
+    font-size: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #3ff04b;
+}
+
+.registration-form p{
+    font-size: 15px;
+    margin: 15px;
+    color: #fff;
+}
+
+.registration-form input{
+    font-size: 10px;
+    padding: 15px 30px ;
+    width: 90px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 0px;
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+.registration-form button{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px 10px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.registration-form button:hover{
+    color: red;
+}
